@@ -1,14 +1,15 @@
-# The official OpenSky Network API
+###PIP requirements
 
-This repository contains API client implementations for the OpenSky Network in
-Python and Java as well as the sources for the [documentation](https://openskynetwork.github.io/opensky-api/). By using the OpenSky API, you agree with our [terms of use](https://opensky-network.org/about/terms-of-use).
+- to export:
+  ip freeze > requirements.txt
 
-
+- to install:
+  pip install -r requirements.txt
 
 ## Python API
 
-* depends on the python-requests library (http://docs.python-requests.org/)
-* both compatible with Python 2 and 3 (tested with 2.7 and 3.5)
+- depends on the python-requests library (http://docs.python-requests.org/)
+- both compatible with Python 2 and 3 (tested with 2.7 and 3.5)
 
 ### Installation
 
@@ -45,11 +46,10 @@ will output something like this:
 }
 ```
 
-
 ## Java API
 
-* Maven project (not yet in a public repository)
-* Uses [```OkHttp```](https://square.github.io/okhttp/) for HTTP requests
+- Maven project (not yet in a public repository)
+- Uses [`OkHttp`](https://square.github.io/okhttp/) for HTTP requests
 
 ### Installation
 
@@ -106,6 +106,7 @@ java -Dhttp.proxyHost=10.0.0.10 -Dhttp.proxyPort=9090 ...
 
 ## Resources
 
-* [API documentation](https://opensky-network.org/apidoc)
-* [OpenSky Forum](https://opensky-network.org/forum)
+- [API documentation](https://opensky-network.org/apidoc)
+- [OpenSky Forum](https://opensky-network.org/forum)
+
 # Sea_watch
